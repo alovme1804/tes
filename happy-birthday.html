@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salome Day</title>
+    <link rel="stylesheet" href="gaya.css">
+    <link rel="shortcut icon" href="Happy_Birthday_Salome_Cake.png" type="image/x-icon">
+    <style>
+        /* CSS Inline untuk tombol */
+        .center-bottom {
+            position: relative;
+            top: 20px;
+            left: 42%;
+            transform: translateX(-50%);
+            background-color: transparent;
+            color: white;
+            font-weight: bold;
+            border:1px solid  #d94747;
+            color: rgb(5, 5, 5);                
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 3.5cm;
+            font-size: 1em;
+            z-index: 2;
+            
+        }
+
+        @media (max-width: 768px) {
+            .center-bottom {
+                left: 32%;
+            }
+        }
+
+        .center-bottom:hover {
+            background-color: #d94747;
+        }
+    </style>
+</head>
+<body>
+    <div class="birthday-card">
+        <!-- Inner -->
+        <div class="cover-inner">
+            <img src="Happy_Birthday_Salome_Cake.png" width="100%">
+        </div>
+    
+        <!-- Outer -->
+        <div class="cover-outer">
+            <img src="cover-outer.jpg" width="100%">
+        </div>
+    
+        <!-- Text -->
+        <div class="text">
+            <p class="title">
+                Happy Birthday! <br> Salome
+            </p>
+            <p>
+                I hope your special day will bring you lots of happiness,
+                love, and fun.
+                You deserve them a lot. Enjoy!
+            </p>
+            <p>Hope your day goes great!</p>
+        </div>
+
+        <!-- Audio -->        
+        <audio autoplay>
+            <source src="Christina Perri - A Thousand Years.mp" type="audio/mp3"/>               
+        </audio>                    
+    </div>
+
+   
+    <a class="center-bottom" >Open Book</a>
+    <a href="index.html" class="center-bottom" >Back</a>
+</body>
+</html>
